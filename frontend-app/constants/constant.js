@@ -1,0 +1,1 @@
+export const weburl="https://linklyte.onrender.com"

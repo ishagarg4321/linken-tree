@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "frontend-app",
+    "slug": "linklyte",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sajalbatradev.linklyte"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.sajalbatradev.linklyte"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "scheme": "your-app-scheme",
+    "extra": {
+      "eas": {
+        "projectId": "3824ede4-5e97-493e-8f8a-12fc7f1dd202"
+      }
+    },
+    "owner": "sajalbatradev"
+  }
+}
